@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triad-ml"
+version = "0.1.0"
+description = "Machine learning stack built on the Triad equation (P1+P2+P3)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "qrv0" }
+]
+keywords = [
+    "triad",
+    "triadlang",
+    "machine-learning",
+    "state-space-model",
+    "nonlinear-schrodinger",
+    "physics-informed",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+gpu = ["cupy-cuda12x"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["triad_ml*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
