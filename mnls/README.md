@@ -224,6 +224,7 @@ paths and can overwrite the supplied histories. Follow the
 
 ---
 
-<sub>Research code release · The published model cards state MIT for code and CC BY 4.0 for documentation.
-Authoritative license files still need to be restored into this extraction.
-Dataset provenance is documented in the <a href="docs/reproduction.md#data-sources">reproduction guide</a>.</sub>
+TriadLang Proprietary Source-Available License
+
+Copyright © 2026 triadlang.
+All rights reserved.
