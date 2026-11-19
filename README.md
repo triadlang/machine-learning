@@ -176,4 +176,7 @@ For those, use the main [TriadLang](https://github.com/triadlang/triadlang) repo
 
 ## License
 
-Same terms as the parent TriadLang project. See `LICENSE`.
+TriadLang Proprietary Source-Available License
+
+Copyright © 2026 triadlang.
+All rights reserved.
