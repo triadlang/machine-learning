@@ -1,3 +1,5 @@
+old : https://github.com/qrv0/triad/blob/93c8dbaaaadcc6c2729236f2f3241ee886f9ed5d/methodology/05-implications-for-agi.md
+
 # Implications for general intelligence in artificial systems
 
 A reader who has followed the work this far has the elements needed to ask a specific question: what does general intelligence in an artificial system architecturally require that current attention-based systems do not provide, and how much of that requirement does the structure documented here satisfy?
